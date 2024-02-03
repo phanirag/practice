@@ -46,6 +46,7 @@ public class IntSteam {
 
     public static void getElementStartWith(int[] val, int i) {
         List<Integer> list1 = Arrays.stream(val).boxed().filter(t -> t.toString().split("")[0].equals(Integer.valueOf(i).toString())).toList();
+        List<String> list2 = Arrays.stream(val).boxed().map(s -> s.toString()).filter(m -> m.startsWith(Integer.valueOf(i).toString())).toList();
         System.out.println(list1);
     }
 

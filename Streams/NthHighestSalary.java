@@ -38,25 +38,11 @@ convertAndSort();
 
     public static void getNthSalaryWithDuplicates(Integer num, List<Integer> list) {
         System.out.println(
-                list.stream().min(Comparator.comparing(Integer::valueOf)).get()
+                list.stream().min(Integer::compare).get()
         );
     }
 
     public static void getNthValueofDepartmentandSalaryOfCustomer() {
-        List<Employe> employes = Employe.getEmployees();
-
-        Map.Entry<String, List<Double>> stringListEntry = employes.stream()
-            .sorted(Comparator.comparing(Employe::getSalary).reversed())
-            .collect(Collectors.groupingBy(
-                Employe::getDepartment,
-                LinkedHashMap::new,
-                Collectors.mapping(Employe::getSalary, Collectors.toList())
-            )).entrySet().stream().toList().get(0);
-
-        System.out.println(stringListEntry);
-    }
-
-    public static void getNthValueofDepartmentandSalaryOfCustomer1() {
         List<Employe> employes = Employe.getEmployees();
 
         Map.Entry<String, List<Double>> stringListEntry = employes.stream()
