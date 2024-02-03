@@ -1,0 +1,25 @@
+
+L
+java:S3740;"/Provide the parametrized type for this generic.(ÓóÏƒ8áî­ÌÓ1
+Q
+java:S3740<"/Provide the parametrized type for this generic.(±ë˜»ıÿÿÿÿ8áî­ÌÓ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿ8ãî­ÌÓ1
+r
+java:S3655%"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ÜôÕìûÿÿÿÿ8ğî­ÌÓ1
+r
+java:S3655&"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Š®¼«ùÿÿÿÿ8ñî­ÌÓ1
+Y
+java:S1854"7Remove this useless assignment to local variable "val".(ï¿¿úÿÿÿÿ8õî­ÌÓ1
+J
+java:S1481"(Remove this unused "val" local variable.(ï¿¿úÿÿÿÿ8öî­ÌÓ1
+]	java:S125"<This block of commented-out lines of code should be removed.(îñÙùüÿÿÿÿ8÷î­ÌÓ1
+L	java:S106%"+Replace this use of System.out by a logger.(ÜôÕìûÿÿÿÿ8ï­ÌÓ1
+L	java:S106&"+Replace this use of System.out by a logger.(Š®¼«ùÿÿÿÿ8ƒï­ÌÓ1
+v
+java:S1158."YCall the static method Integer.toString(...) instead of instantiating a temporary object.(‚¾Ö8‹ï­ÌÓ1
+G	java:S106/"+Replace this use of System.out by a logger.(÷ğåŸ8ï­ÌÓ1
+G	java:S1066"+Replace this use of System.out by a logger.(Ö¼çè8‘ï­ÌÓ1
+G	java:S1067"+Replace this use of System.out by a logger.(¤àõÊ8‘ï­ÌÓ1
+G	java:S106="+Replace this use of System.out by a logger.(ş­»8“ï­ÌÓ1
+Y
+java:S1128"7Remove this unused import 'java.util.stream.IntStream'.(ÙÉ½Ÿùÿÿÿÿ8“ï­ÌÓ1

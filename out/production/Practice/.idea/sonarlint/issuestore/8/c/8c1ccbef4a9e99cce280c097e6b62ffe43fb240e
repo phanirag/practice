@@ -1,0 +1,24 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìá°
+k
+java:S1450"URemove the "choice" field and declare it as a local variable in the relevant methods.(ÍŠ™»
+E
+java:S1197"*Move the array designators [] to the type.(ô¿ºÒşÿÿÿÿ
+?	java:S106
+"+Replace this use of System.out by a logger.(‰˜Á
+E	java:S106"+Replace this use of System.out by a logger.(šôÒÂûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ˆ“şµ
+E	java:S106"+Replace this use of System.out by a logger.(ıíî§úÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ïÿ«¤
+@	java:S106"+Replace this use of System.out by a logger.(•éõ«
+@	java:S106"+Replace this use of System.out by a logger.(“·¤¼
+E	java:S106"+Replace this use of System.out by a logger.(ÅˆŠ³ùÿÿÿÿ
+D
+java:S1905"'Remove this unnecessary cast to "Food".(ÓŸî¶8ƒÏóÿÑ1
+@	java:S106"+Replace this use of System.out by a logger.(•˜Û‰
+E	java:S106"+Replace this use of System.out by a logger.(¯Ë¬ùÿÿÿÿ
+D
+java:S1905!"'Remove this unnecessary cast to "Food".(­ğ†æ8„ÏóÿÑ1
+@	java:S106""+Replace this use of System.out by a logger.(‹‰İ
+E	java:S106#"+Replace this use of System.out by a logger.(Ôó†Úúÿÿÿÿ
+@	java:S106("+Replace this use of System.out by a logger.(µ»‹Î

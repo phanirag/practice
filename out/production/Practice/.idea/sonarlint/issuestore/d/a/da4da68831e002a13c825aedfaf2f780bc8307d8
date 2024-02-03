@@ -1,0 +1,5 @@
+
+1
+java:S1700"Rename field "count"(æÕ¿¼8óÄÇ•Ó1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£±¼Ÿ8ôÄÇ•Ó1
+F	java:S106%"+Replace this use of System.out by a logger.(±½³28¢ÚÉ•Ó1

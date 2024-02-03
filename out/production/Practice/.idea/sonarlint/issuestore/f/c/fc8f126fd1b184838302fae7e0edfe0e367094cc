@@ -1,0 +1,25 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(¦œ’…8ˆ‰ÓÒ1
+L
+java:S3740"/Provide the parametrized type for this generic.(† òİ8ˆ‰ÓÒ1
+L
+java:S3740"/Provide the parametrized type for this generic.(† òİ8ˆ‰ÓÒ1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ßçÔ¶úÿÿÿÿ8‰‰ÓÒ1
+m
+java:S3655%"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(…åß²8ÂÄ‚ÓÒ1
+]	java:S125"<This block of commented-out lines of code should be removed.(×„Ø”øÿÿÿÿ8“‰ÓÒ1
+X	java:S125"<This block of commented-out lines of code should be removed.(éŒè8”‰ÓÒ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ò€ãô8”‰ÓÒ1
+F	java:S106"+Replace this use of System.out by a logger.(‚Û„k8•‰ÓÒ1
+L
+java:S1172"*Remove this unused method parameter "num".(©…åÙÿÿÿÿÿ8–‰ÓÒ1
+L	java:S106"+Replace this use of System.out by a logger.(ã¿¢Ôùÿÿÿÿ8–‰ÓÒ1
+L	java:S106 "+Replace this use of System.out by a logger.(´‹¹öşÿÿÿÿ8—‰ÓÒ1
+G
+java:S1172#"*Remove this unused method parameter "num".(©É÷8—‰ÓÒ1
+G	java:S106$"+Replace this use of System.out by a logger.(ÆÀûı8—‰ÓÒ1
+U
+java:S1128"8Remove this unused import 'java.util.function.Function'.(»³Í8‚‡„ıÓ1
+Z
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ8‚‡„ıÓ1

@@ -1,0 +1,18 @@
+
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ñ©•Ó1
+g	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ò©•Ó1
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£±¼Ÿ
+G	java:S106"+Replace this use of System.out by a logger.(¡ïı¸8û©•Ó1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8û©•Ó1
+L	java:S106"+Replace this use of System.out by a logger.(Ñøÿÿÿÿÿ8ı©•Ó1
+{
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ı©•Ó1
+L	java:S106!"+Replace this use of System.out by a logger.(ö™¯şÿÿÿÿ8€ª•Ó1
+]	java:S125"<This block of commented-out lines of code should be removed.(ºˆ—ıÿÿÿÿ8ï²¦•Ó1
+L	java:S106""+Replace this use of System.out by a logger.(®â¯œùÿÿÿÿ8€ª•Ó1
+L	java:S106&"+Replace this use of System.out by a logger.(¥Æà’ıÿÿÿÿ8„áŸ•Ó1
+L	java:S106'"+Replace this use of System.out by a logger.(’×£°ıÿÿÿÿ8·µ •Ó1
+L	java:S106."+Replace this use of System.out by a logger.(›ùªúûÿÿÿÿ8èÔ •Ó1
+L	java:S1063"+Replace this use of System.out by a logger.(›ùªúûÿÿÿÿ8¸ß©•Ó1
+L	java:S1065"+Replace this use of System.out by a logger.(Å¨©°üÿÿÿÿ8¡ú©•Ó1

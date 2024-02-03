@@ -1,0 +1,5 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·€ÝÃþÿÿÿÿ
+t
+java:S1450"YRemove the "realaccess" field and declare it as a local variable in the relevant methods.(«¡Øöúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(†œÄµ

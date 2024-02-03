@@ -1,0 +1,20 @@
+
+i	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç¦›88¡»¹¹Ò1
+L	java:S106"+Replace this use of System.out by a logger.(™à Æüÿÿÿÿ8¨»¹¹Ò1
+L	java:S106"+Replace this use of System.out by a logger.(”û³»ÿÿÿÿÿ8¨»¹¹Ò1
+G	java:S106"+Replace this use of System.out by a logger.(²øÒ‘8¨»¹¹Ò1
+L	java:S106"+Replace this use of System.out by a logger.(òá—±ÿÿÿÿÿ8¨»¹¹Ò1
+L	java:S106"+Replace this use of System.out by a logger.(¿ÚÙùÿÿÿÿ8ª»¹¹Ò1
+G	java:S106"+Replace this use of System.out by a logger.( ¼…•8ª»¹¹Ò1
+G	java:S106"+Replace this use of System.out by a logger.(ï˜©â8ª»¹¹Ò1
+o	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥»õÿÿÿÿÿÿ8ª»¹¹Ò1
+L	java:S106#"+Replace this use of System.out by a logger.(Ü¾‚×ıÿÿÿÿ8­»¹¹Ò1
+]	java:S125'"<This block of commented-out lines of code should be removed.(ôÒÀ ÿÿÿÿÿ8­»¹¹Ò1
+L	java:S1062"+Replace this use of System.out by a logger.(š—“¿ÿÿÿÿÿ8®»¹¹Ò1
+j	java:S1005"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥»„ğ8ê×¹¹Ò1
+L	java:S1067"+Replace this use of System.out by a logger.(—§óşÿÿÿÿ8ê×¹¹Ò1
+G	java:S106:"+Replace this use of System.out by a logger.(ï«†à8ê×¹¹Ò1
+]	java:S125<"<This block of commented-out lines of code should be removed.(µ­Õƒúÿÿÿÿ8ê×¹¹Ò1
+G	java:S106E"+Replace this use of System.out by a logger.(Ù“¶¯8ê×¹¹Ò1
+]	java:S125J"<This block of commented-out lines of code should be removed.(âˆ‚Öûÿÿÿÿ8ê×¹¹Ò1
+G	java:S106W"+Replace this use of System.out by a logger.(ÛŠ¨Ÿ8ê×¹¹Ò1
