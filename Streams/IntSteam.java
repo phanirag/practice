@@ -2,8 +2,10 @@ package Streams;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -60,4 +62,15 @@ public class IntSteam {
         List l2 = list.parallelStream().sorted(Comparator.reverseOrder()).toList();
         System.out.println(l2);
     }
+
+    public boolean containsDuplicate(int[] nums) {
+    List<Integer> list = Arrays.stream(nums)
+                               .boxed()
+                               .collect(Collectors.toList());
+    Set<Integer> set = new HashSet<>(list);
+     if(set.size() == list.size()) {
+       return false;
+   } 
+      return true;
+  }
 }

@@ -6,21 +6,23 @@ import java.util.Map;
 import java.util.StringJoiner;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StringStream {
     public static void main(String[] args) {
         String vale = "TheIsTheValueWhichneedtotest";
 
-        System.out.println(getValueOfString(vale));
-        System.out.println(getValueOfStringAndCount(vale));
-        System.out.println(getValueOfStringWithDuplicates(vale));
-        System.out.println(getValueOfStringWithUniqure(vale));
-        System.out.println(getValueOfStringWithUniqureGetOnlyFirstTwo(vale));
-        System.out.println(getValueOfStringWithUniqureGetOnlyFirstTwoAndSkipFirstElement(vale));
-        stringJoin(vale);
+        // System.out.println(getValueOfString(vale));
+        // System.out.println(getValueOfStringAndCount(vale));
+        // System.out.println(getValueOfStringWithDuplicates(vale));
+        // System.out.println(getValueOfStringWithUniqure(vale));
+        // System.out.println(getValueOfStringWithUniqureGetOnlyFirstTwo(vale));
+        // System.out.println(getValueOfStringWithUniqureGetOnlyFirstTwoAndSkipFirstElement(vale));
+        // stringJoin(vale);
 
-        String[] vals = { "New", "test", "val", "testing"," val"};
-        System.out.println(findLaregestInString(vals));
+        // String[] vals = { "New", "test", "val", "testing"," val"};
+        // System.out.println(findLaregestInString(vals));
+        ConcatTwoStingSteams();
 
     }
 
@@ -75,6 +77,17 @@ public class StringStream {
                 .filter(s -> s.getValue() == 1)
                 .map(Map.Entry::getKey)
                 .toList().stream().skip(1).limit(2).toList();
+    }
+
+    public static void ConcatTwoStingSteams() {
+        List<String> list1 = Arrays.asList("Java", "8");
+        List<String> list2 = Arrays.asList("explained", "through", "programs");
+ 
+        Stream<String> concatStream = Stream.concat(list1.stream(), list2.stream());
+         
+        // Concatenated the list1 and list2 by converting them into Stream
+ 
+        concatStream.forEach(s -> System.out.print(s + " "));
     }
 
 
