@@ -36,7 +36,7 @@ public class IntSteam {
     }
 
     public static void getMinAndMaxofArrays(int[] val) {
-        System.out.println("Min val: " + Arrays.stream(val).boxed().min(Comparator.comparing(Integer::valueOf)).get());
+        System.out.println("Min val: " + Arrays.stream(val).boxed().min(Integer::compare).get());
         System.out.println("Max val: " + Arrays.stream(val).boxed().max(Comparator.comparing(Integer::valueOf)).get());
     }
 
