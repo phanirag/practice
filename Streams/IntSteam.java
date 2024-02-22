@@ -14,13 +14,14 @@ public class IntSteam {
 
         int[] val = {1,44,2,1,22,44,66,66,4,44,5,77,33,22};
 
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
 //        System.out.println(getSortedList(val));
 //        System.out.println(getSortedListWithoutDuplicates(val));
 //        System.out.println(getValuesofArrays(val));
 //        System.out.println(getNthHigheshtNumber(val, 0));
 //        getMinAndMaxofArrays(val);
 //        getElementStartWith(val, 7);
-        parllelStreams();
+        // parllelStreams();
 
     }
 
@@ -52,6 +53,7 @@ public class IntSteam {
 
     public static void getEvenAndOddSum() {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+        list.stream().sorted(Comparator.reverseOrder()).map(m -> m).toList().get(0);
         Integer evenSum = list.stream().filter(x -> x % 2 == 0).mapToInt(Integer::intValue).sum();
         Integer oddSum = list.stream().filter(x -> x % 2 != 0).mapToInt(Integer::intValue).sum();
         System.out.println(evenSum);

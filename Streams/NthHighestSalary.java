@@ -1,9 +1,7 @@
 package Streams;
 
 import java.util.*;
-import java.util.function.Function;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 import Streams.models.Employe;
 import Streams.models.Notes;

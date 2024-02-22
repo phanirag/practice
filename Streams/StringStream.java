@@ -10,7 +10,9 @@ import java.util.stream.Stream;
 
 public class StringStream {
     public static void main(String[] args) {
-        String vale = "TheIsTheValueWhichneedtotest";
+        String vale = "The Is The Value Which need to test";
+        // stringReverse(vale);
+
 
         // System.out.println(getValueOfString(vale));
         // System.out.println(getValueOfStringAndCount(vale));
@@ -22,7 +24,19 @@ public class StringStream {
 
         // String[] vals = { "New", "test", "val", "testing"," val"};
         // System.out.println(findLaregestInString(vals));
-        ConcatTwoStingSteams();
+        // ConcatTwoStingSteams();
+
+    }
+
+    public static void stringReverse(String val) {
+        // String[] split = val.split("");
+        // String result = "";
+        // for(int i =split.length -1; i >= 0; i--) {
+        //     result = result + split[i];
+        // }
+
+        String result = Arrays.stream(val.split("")).reduce("", (a, b) -> b + a);
+        System.out.println(result);
 
     }
 
@@ -44,7 +58,7 @@ public class StringStream {
     }
 
     public static Map<String, Long> getValueOfStringAndCount(String val) {
-        return Arrays.stream(val.split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
+        return Arrays.stream(val.replace(" ", "").split("")).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
     }
 
     public static List<String> getValueOfStringWithDuplicates(String val) {

@@ -59,4 +59,14 @@ public class Employe {
         return employes;
 
     }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "empId=" + id +
+                ", empName='" + name + '\'' +
+                ", empDepartment='" + department + '\'' +
+                ", empSalary=" + salary +
+                '}';
+    }
 }
